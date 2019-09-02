@@ -1,7 +1,7 @@
-def reverse_each_word(sentence1)
+def reverse_each_word(sentence)
   
-  sentence1.split(" ").each { |i| i.reverse }
-  sentence1.split(" ").collect { |i| i.reverse }
+  sentence.split(" ").each { |i| i }
+  sentence.split(" ").collect { |i| i }
   
-  sentence1
+  sentence.reverse
 end
