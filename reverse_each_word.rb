@@ -1,5 +1,5 @@
-def reverse_each_word(string)
-  string = "Hello there, and how are you?"
-  string.split
-  p string(" ")
+def reverse_each_word(String)
+  String = "Hello there, and how are you?"
+  String.split("")
+  p string
 end
